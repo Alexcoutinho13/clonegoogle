@@ -1,0 +1,78 @@
+@charset "UTF-08";
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 98%;
+}
+header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+nav ul a {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.875);
+    font-size: 0.8em;
+}
+nav ul li:hover {
+    text-decoration: underline;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 18px;
+}
+.mosaico {
+    margin-right: 10px;
+}
+.mosaico img {
+    cursor: pointer;
+    opacity: 68%;
+    padding: 8px;
+    align-self: center;
+    display: flex;
+    border-radius: 50%;
+}
+.mosaico img:hover {
+    background-color: rgba(223, 222, 222, 0.686);
+}
+.foto_pessoal img {
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.logo img {
+    width: 220px;
+}
+.column {
+    flex-direction: column;
+}
+.search_form {
+    margin-bottom: 50px;
+}
+.form {
+    display: flex;
+}
